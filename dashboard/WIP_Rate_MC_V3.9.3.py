@@ -18,8 +18,8 @@ from tkinter import messagebox, simpledialog
 SERVER_IP = "0.0.0.0"
 PORT = 8501
 DB_DIR = r"D:\CKA30_Database"
-EXIT_PASSWORD = "@A30.123"
-DISPLAY_IP = "10.61.16.1"
+EXIT_PASSWORD = "xxxxxxxxx"
+DISPLAY_IP = "xxxxxxxxx"
 CACHE_TTL = 55          # วินาที — refresh cache ก่อน browser reload (60s)
 LOG_FILE = r"D:\CKA30_Database\dashboard.log"
 
