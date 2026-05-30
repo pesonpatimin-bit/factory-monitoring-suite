@@ -14,7 +14,7 @@ SERVER_IP = "10.61.16.1"
 SERVER_PORT = 6370
 DB_FOLDER = r"D:\CKA30_Database"
 DB_NAME = os.path.join(DB_FOLDER, "MC_runrate_history.db")
-# อัปเดตชื่อไฟล์ LOG ใหม่ตามที่บี๋ต้องการ
+# อัปเดตชื่อไฟล์ LOG ใหม่
 LOG_FILE = os.path.join(DB_FOLDER, "LOG_MC_Runrate_Collection_Master.txt") 
 # =================================================
 
