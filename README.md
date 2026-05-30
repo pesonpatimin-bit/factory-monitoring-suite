@@ -3,7 +3,7 @@
 
 A collection of tools built to give production engineers and foremen real-time and historical visibility into factory performance — without relying on manual data collection or walking the floor.
 
-**All tools are deployed and actively used in production at COMPEQ Manufacturing Co., Ltd.**
+**All tools are deployed and actively used in production at ris-working Manufacturing Co., Ltd.**
 
 ---
 
@@ -14,10 +14,10 @@ A collection of tools built to give production engineers and foremen real-time a
 │                    FACTORY NETWORK                          │
 │                                                             │
 │  Machine Servers ──TCP──► [MC_Runrate_Collection]           │
-│  (10.61.16.1:6370)         Saves to MC_runrate_history.db  │
+│  (x.x.x.x:6370)         Saves to MC_runrate_history.db  │
 │                                                             │
 │  Factory WIP Web ──HTTP──► [MGR_WIP_Collection]             │
-│  (home30.compeq.co.th)     Saves to MGR_WIP_history.db     │
+│  (****.ris-working.co.th)     Saves to MGR_WIP_history.db     │
 │                                                             │
 │       Both DBs ──────────► [WIP_Rate Dashboard]             │
 │                             Analytics & charts :8501        │
@@ -141,7 +141,7 @@ All tools share a common config directory: `D:\CKA30_Database\`
 
 **Network config** (edit top of each file):
 ```python
-SERVER_IP   = "10.61.16.1"   # Factory machine server
+SERVER_IP   = "x.x.x.x"   # Factory machine server
 SERVER_PORT = 6370
 ```
 
@@ -173,13 +173,13 @@ These tools were built from scratch — by identifying the raw TCP protocol thro
 
 ## Status
 
-✅ **All tools deployed and operational** — running in production daily at COMPEQ Manufacturing Co., Ltd., used by production engineers and foremen for floor monitoring, shift handover, and capacity planning.
+✅ **All tools deployed and operational** — running in production daily at ris-working Manufacturing Co., Ltd., used by production engineers and foremen for floor monitoring, shift handover, and capacity planning.
 
 ---
 
 ## About
 
-Built by **Peson Patimin** — Production Engineer at COMPEQ Manufacturing Co., Ltd.  
+Built by **Peson Patimin** — Production Engineer at ris-working Manufacturing Co., Ltd.  
 All tools designed, developed, and deployed independently.
 
 🔗 [LinkedIn](https://linkedin.com/in/rispeson) | [GitHub](https://github.com/pesonpatimin-bit)
