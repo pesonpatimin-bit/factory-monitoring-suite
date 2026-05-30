@@ -11,10 +11,10 @@ from flask import Flask, jsonify, render_template_string
 from waitress import serve  # ใช้ Waitress สำหรับรัน Production
 
 # ================= การตั้งค่า (Configuration) =================
-SERVER_IP = "10.61.16.1"  
+SERVER_IP = "x.x.x.x"  
 SERVER_PORT = 6370        
 WEB_PORT = 8080           
-PASSWORD_TO_CLOSE = "@A30.123" # รหัสผ่านสำหรับปิดโปรแกรม
+PASSWORD_TO_CLOSE = "1234" # รหัสผ่านสำหรับปิดโปรแกรม
 # ==========================================================
 
 # ระบบ Logging: บันทึก Error ลงไฟล์เมื่อไม่มีหน้าต่าง Console
