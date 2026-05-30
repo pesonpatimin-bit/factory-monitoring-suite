@@ -15,8 +15,8 @@ from PIL import Image, ImageDraw
 # ==========================================
 # [ตั้งค่าตัวแปรระบบพื้นฐาน]
 # ==========================================
-LOGIN_URL = "http://home30.compeq.co.th/JQWebClient/LogOn.aspx"
-API_URL = "http://home30.compeq.co.th/JQWebClient/handler/JQDataHandle.ashx?RemoteName=SMGR_OUT_WipOut"
+LOGIN_URL = "http://****************/JQWebClient/LogOn.aspx"
+API_URL = "http://****************/JQWebClient/handler/JQDataHandle.ashx?RemoteName=SMGR_OUT_WipOut"
 
 DB_DIR = r"D:\CKA30_Database"
 DB_PATH = os.path.join(DB_DIR, "MGR_WIP_history.db")
@@ -166,7 +166,7 @@ def job_process():
 
     api_headers = headers.copy()
     api_headers["X-Requested-With"] = "XMLHttpRequest"
-    api_headers["Referer"] = "http://home30.compeq.co.th/JQWebClient/SL_MGR_OUT/WMGR_OUT_WipOutSum.aspx?undefined"
+    api_headers["Referer"] = "http://***************/JQWebClient/SL_MGR_OUT/WMGR_OUT_WipOutSum.aspx?undefined"
 
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
